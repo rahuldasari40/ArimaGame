@@ -34,9 +34,6 @@ class MainActivity : ComponentActivity() {
 fun ArimaGameBoard(modifier: Modifier = Modifier) {
     Box(
         modifier = modifier
-            .background(Color.Gray) // Gray background for the board
-            .aspectRatio(1f)        // Ensures the board is always square
     ) {
-        // Content for the board will go here
-    }
-}
+                }
+            }

@@ -23,15 +23,12 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     contentAlignment = Alignment.Center
                 ) {
-                }
-            }
-        }
     }
 }
+}
+        }
+    }
 @Composable
-fun ArimaGameBoard(modifier: Modifier = Modifier) {
     Box(
-        modifier = modifier
-                        ) {
     }
 }

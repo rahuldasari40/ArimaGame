@@ -19,12 +19,10 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             ArimaTheme {
-                // Place the custom Arimaa board composable here
                 Box(
                     modifier = Modifier.fillMaxSize(),
                     contentAlignment = Alignment.Center
                 ) {
-                    ArimaGameBoard() // Call your custom composable
                 }
             }
         }
@@ -34,6 +32,6 @@ class MainActivity : ComponentActivity() {
 fun ArimaGameBoard(modifier: Modifier = Modifier) {
     Box(
         modifier = modifier
-    ) {
-                }
-            }
+                        ) {
+    }
+}
